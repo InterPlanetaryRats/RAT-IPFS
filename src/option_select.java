@@ -1,5 +1,6 @@
 
-
+import ipfs_shell_control.ipfs_allow_shell;
+import ipfs_shell_control.ipfs_shell;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -18,7 +19,6 @@ public class option_select extends javax.swing.JFrame {
     public option_select() {
         initComponents();
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -139,11 +139,14 @@ public class option_select extends javax.swing.JFrame {
     private void get_shellActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_get_shellActionPerformed
         // TODO add your handling code here:
 
+        ipfs_shell get_ipfs_shell = new ipfs_shell();
+        get_ipfs_shell.setVisible(true);
     }//GEN-LAST:event_get_shellActionPerformed
 
     private void allow_shellActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_allow_shellActionPerformed
         // TODO add your handling code here:
-
+        ipfs_allow_shell get_ipfs_shell = new ipfs_allow_shell();
+        get_ipfs_shell.setVisible(true);
     }//GEN-LAST:event_allow_shellActionPerformed
 
     /**

@@ -210,6 +210,8 @@ public class daemon extends javax.swing.JFrame implements Runnable {
         option_select conn_pubsub = new option_select();
         conn_pubsub.setVisible(true);
         channel_launch.setEnabled(false);
+        
+        
     }//GEN-LAST:event_channel_launchActionPerformed
 
     /**
