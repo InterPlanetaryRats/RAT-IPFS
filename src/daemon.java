@@ -207,7 +207,9 @@ public class daemon extends javax.swing.JFrame implements Runnable {
 
     private void channel_launchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_channel_launchActionPerformed
         // TODO add your handling code here:
-;
+        option_select conn_pubsub = new option_select();
+        conn_pubsub.setVisible(true);
+        channel_launch.setEnabled(false);
     }//GEN-LAST:event_channel_launchActionPerformed
 
     /**
