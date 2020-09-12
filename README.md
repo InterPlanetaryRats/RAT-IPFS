@@ -1,7 +1,7 @@
 <h1 align="center">
   RAT-IPFS
 </h1>
-Remote access tool using Inter planetary file system. `white discription here.`
+Remote access tool using Inter planetary file system. `write discription here.`
 
 
 > Wiki is a good place to start!
